@@ -44,6 +44,18 @@ export default function Home({navigation}) {
           Aula03_componentes
         </Text>
       </TouchableOpacity>
+
+      {/* Botao para acessar a view com o projeto da Aula05_modal */}
+      <TouchableOpacity 
+        style={styles.botton}
+        onPress={() => navigation.navigate('Aula05_modal')}
+      >
+        <Text
+          style={styles.textBotton}
+        >
+          Aula05_modal
+        </Text>
+      </TouchableOpacity>
       
       {/* Definicao da statusBar, onde aparece a bateria do smartphone */}
       <StatusBar style="light" />
